@@ -3,8 +3,8 @@
 
   ## Links
 
-  Video of application: https://drive.google.com/file/d/1uVOXZagke7cHpZx9uT2bmlKwY8w2GbU_/view
-  GitHub Repo: https://github.com/davidvargas95/Readme-generator
+  Video of application:  https://drive.google.com/file/d/1uVOXZagke7cHpZx9uT2bmlKwY8w2GbU_/view
+  GitHub Repo:  https://github.com/davidvargas95/Readme-generator
   --
 
   ## Table of Contents
