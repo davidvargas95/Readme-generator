@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMD = require("./utils/generateMarkdown");
+const gm = require("./utils/generateMarkdown");
 const fileName = "README.md";
 
 const licenseList = [
@@ -72,7 +72,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMD(data), (err) => {
+    fs.writeFile(fileName, gm(data), (err) => {
         if (err) console.log("Error");
         else console.log("Success")
     })

@@ -1,11 +1,11 @@
 const year = "2021";
-const myName = "David Vargas"
+const myName = "David Vargas";
 
 
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  const selectedLicense = licenses[data.license].content;
+  const selectedLicense = licenses[data.licensing].content;
 
   return `
   # ${data.title}
@@ -34,8 +34,8 @@ function generateMarkdown(data) {
 
   --
   ## Questions
-  Find me on GitHub: ${data.username}
-  Or, email me at: ${data.email}
+  Find me on GitHub: https://github.com/${data.username}
+  <br/>Or, email me at: ${data.email}
 
   --
   ## License
@@ -259,7 +259,7 @@ const licenses = [
     same "printed page" as the copyright notice for easier
     identification within third-party archives.
 
-    Copyright {${year}} {${myName}}
+    Copyright [${year}] [${myName}]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -908,7 +908,7 @@ const licenses = [
    the "copyright" line and a pointer to where the full notice is found.
    
        {one line to give the program's name and a brief idea of what it does.}
-       Copyright (C) ${year}  ${myName}
+       Copyright (C) [${year}]  [${myName}]
    
        This program is free software: you can redistribute it and/or modify
        it under the terms of the GNU General Public License as published by
@@ -928,7 +928,7 @@ const licenses = [
      If the program does terminal interaction, make it output a short
    notice like this when it starts in an interactive mode:
    
-       {project}  Copyright (C) ${year}  ${myName}
+       {project}  Copyright (C) [${year}]  [${myName}]
        This program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.
        This is free software, and you are welcome to redistribute it
        under certain conditions; type 'show c' for details.
