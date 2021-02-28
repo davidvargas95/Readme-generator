@@ -2,18 +2,33 @@
   # README Generator
 
   ## Links
+
+  Video of application: https://drive.google.com/file/d/1uVOXZagke7cHpZx9uT2bmlKwY8w2GbU_/view
+  GitHub Repo: https://github.com/davidvargas95/Readme-generator
   --
+
+  ## Table of Contents
+
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contribution](#Contribution)
+  * [Testing](#Testing)
+  * [Questions](#Questions)
+  * [License](#License)
+
+
 
   ## Description
-  This application will run the user through a series of questions that will populated into a finished README.md file once complete.
+  This application will run the user through a series of questions that will populated into a finished README.md file once complete. 
 
   --
-  ## Instalation
+  ## Installation
   type npm i in the terminal to install dependencies. npm i inquirer will install the files needed for the questions.
 
   --
   ## Usage
-  This app is to easily create consistent README files
+  This app is meant to easily create consistent README files. This should save a any developer time by eliminating the process of having to write out a completely developed README for each project. 
 
   --
   ## Contribution
